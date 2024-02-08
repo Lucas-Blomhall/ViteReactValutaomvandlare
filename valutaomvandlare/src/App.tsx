@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
-import Converter from "./components/CurrencyConverter/converter";
+import Header from "./components/Header/Header";
+import CurrencyConverter from "./components/CurrencyConverter/CurrencyConverter";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -11,7 +12,8 @@ function App() {
   return (
     <>
       <div>
-        <Converter />
+        <Header />
+        <CurrencyConverter />
       </div>
     </>
   );

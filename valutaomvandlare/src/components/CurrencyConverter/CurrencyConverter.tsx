@@ -6,7 +6,7 @@ import Result from "../Result/Result";
 import moment from "moment";
 import "./index.css";
 
-const converter: React.FC = () => {
+const CurrencyConverter: React.FC = () => {
   const [from, setFrom] = useState<string>("EUR - Euro (€)");
   const [into, setInto] = useState<string>("INR - Indian Rupee (₹)");
   const [loading, setLoading] = useState<boolean>(false);
@@ -129,4 +129,4 @@ const converter: React.FC = () => {
   );
 };
 
-export default converter;
+export default CurrencyConverter;
